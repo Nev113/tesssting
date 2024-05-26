@@ -1,0 +1,14 @@
+2024/05/26-19:22:59.881 1bcc Reusing MANIFEST /home/nevo/Documents/HoshinoBot/tokens/serv1/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/26-19:22:59.881 1bcc Recovering log #150
+2024/05/26-19:22:59.888 1bcc Reusing old log /home/nevo/Documents/HoshinoBot/tokens/serv1/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000150.log 
+2024/05/26-19:22:59.892 1bcc Delete type=2 #148
+2024/05/26-19:23:01.665 1bd5 Level-0 table #155: started
+2024/05/26-19:23:01.670 1bd5 Level-0 table #155: 98923 bytes OK
+2024/05/26-19:23:01.675 1bd5 Delete type=0 #150
+2024/05/26-19:23:01.676 1bcc Manual compaction at level-0 from '\x00;\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at '\x00;\x00\x00\x05' @ 296488 : 1
+2024/05/26-19:23:01.676 1bcc Compacting 1@0 + 1@1 files
+2024/05/26-19:23:01.825 1bcc Generated table #156@0: 113394 keys, 2132298 bytes
+2024/05/26-19:23:01.825 1bcc Compacted 1@0 + 1@1 files => 2132298 bytes
+2024/05/26-19:23:01.828 1bcc compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/26-19:23:01.829 1bcc Delete type=2 #155
+2024/05/26-19:23:01.829 1bcc Manual compaction at level-0 from '\x00;\x00\x00\x05' @ 296488 : 1 .. '\x00<\x00\x00\x00' @ 0 : 0; will stop at (end)

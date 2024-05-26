@@ -1,0 +1,19 @@
+{
+  "name": "hoshinobot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "venom-bot": "^5.1.0"
+  }
+}
