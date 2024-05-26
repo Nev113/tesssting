@@ -1,6 +1,13 @@
 import express from 'express';
 import cors from 'cors';
 import { makeSockets } from './functions.js';
+import download from 'download-chromium';
+
+const exec = await download()
+console.log(`Downloaded Chromium to ${exec}`)
+download({ revision: 123 })
+  .then((exec) => console.log(`Downloaded Chromium to ${exec}`))
+  .catch((error) => console.error(error))
 
 const app = express();
 let sock;
